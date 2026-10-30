@@ -1,7 +1,7 @@
 cask "ghnotif" do
-  version "0.7.1"
+  version "0.7.2"
   arch arm: "arm64", intel: "x86_64"
-  sha256 arm: "91862c7eb372eff846714bfe2344fa24d74b67ed6308366abd15b97e985951ae", intel: "1176fb6a38a8307342925923487a63b0d0d7d05a8758cc6451a164e71d484f27"
+  sha256 arm: "2782df6d9b8372f5971d4e684595b9bb29539cd921b88ac7c903ccfb6948f740", intel: "2853590e027111fb4d074d9155ef44df6f2ae19580873ad041d8b1d09bedd7a2"
 
   url "https://github.com/MichalFidor/GHNotif/releases/download/v#{version}/GHNotif-macos-#{arch}.zip"
   name "GHNotif"
